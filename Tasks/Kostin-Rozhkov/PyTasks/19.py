@@ -1,13 +1,10 @@
-def fact(n):
-	if n == 0:
-		return 1
-	else:
-		return fact(n - 1) * n
-
 def sum_fact(n):
-	x = []
-	for i in range(1, n+1):
-		x.append(fact(i))
-	return sum(x)
+  k = x = 1
+  r = 0
+  for i in range(n):
+      k *= x
+      x += 1
+      r += k
+  return r
 
-print("Сумма всех факториалов до n равна {}".format(sum_fact(int(input("Введите n: "))))) 
+print("Сумма всех факториалов до n равна {}".format(sum_fact(int(input("Введите n: ")))))
