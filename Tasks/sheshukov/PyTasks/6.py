@@ -1,7 +1,5 @@
 def new_sgn(x):
-    if int(x) < 0:
-        return -1
-    return 1
+    return 0 if x == 0 else x / abs(x)
 
 
-print(new_sgn(input()))
+print(new_sgn(int(input())))
