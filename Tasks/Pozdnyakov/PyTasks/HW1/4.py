@@ -1,2 +1,6 @@
 import os,pwd
-print("Hello, ",pwd.getpwuid(os.getuid())[0],"!",sep='')
+def Luke_I_am_your_father():
+  print(pwd.getpwuid(os.getuid())[0],", I'm your father!",sep='')
+
+print("Hello, ",input(),"!",sep='')
+Luke_I_am_your_father()

@@ -1,8 +1,9 @@
 def sgn(x):
-  if x>=0:
-    return '+'
+  if x>0:
+     return 1
+  elif x==0:
+     return 0
   else:
-    return '-'
+     return -1
 
-x=int(input())
-print(sgn(x))
+print(sgn(int(input())))
