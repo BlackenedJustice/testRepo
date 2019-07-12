@@ -1,4 +1,6 @@
 a,b=map(int,input().split())
-for i in range(min(a,-1),b-1,-1):
+a-=1-a%2
+b+=1-b%2
+for i in range(a,b-1,-2):
   print(i,end=' ')
 print()
