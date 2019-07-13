@@ -1,8 +1,7 @@
 def fact(n):
-  k = x = 1
+  k = 1
   for i in range(n):
-      k *= x
-      x += 1
+      k *= i + 1
   return k
 
 print("n! = {}".format(fact(int(input("Введите n: ")))))

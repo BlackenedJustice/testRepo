@@ -1,9 +1,8 @@
 def sum_fact(n):
-  k = x = 1
+  k = 1
   r = 0
   for i in range(n):
-      k *= x
-      x += 1
+      k *= i + 1
       r += k
   return r
 
