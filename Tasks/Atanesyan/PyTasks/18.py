@@ -7,4 +7,4 @@ def fact(a):
         while i in range(a+1):
             s = s * i
             i = i + 1
-    print(s)
+        print(s)
