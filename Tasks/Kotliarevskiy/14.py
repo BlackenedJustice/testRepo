@@ -1,3 +1,3 @@
 print ('enter the number')
-x=((int(input()))//10)%10
+x=((int(input()))//10)
 print(x)
