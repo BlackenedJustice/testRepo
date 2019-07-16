@@ -1,9 +1,8 @@
 def fact(n):
-    if n==1:
-        return 1
-    else:
-        return n*fact(n-1)
-    return fact
+    fac=1
+    for i in range(1,n+1,1):
+        fac=fac*i
+    return(fac)
 print('enter the number')
 n=int(input())
 print(fact(n))
