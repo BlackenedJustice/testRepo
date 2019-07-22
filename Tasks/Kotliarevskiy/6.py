@@ -1,8 +1,8 @@
 def sgn(x):
     if x>0:
-        sign='+'
+        sign='1'
     elif x<0:
-        sign='-'
+        sign='-1'
     else:
         sign='0'
     print(sign)
