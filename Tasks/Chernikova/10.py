@@ -1,0 +1,15 @@
+Python 3.7.4 (v3.7.4:e09359112e, Jul  8 2019, 14:36:03) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+=============================== RESTART: Shell ===============================
+>>> 
+=============================== RESTART: Shell ===============================
+>>> n= int(input())
+m= int(input())
+k= int(input())
+if k< n*m and ((k % n == 0) or (k % m == 0)):
+    print('YES')
+else:
+    print('NO')
+    
